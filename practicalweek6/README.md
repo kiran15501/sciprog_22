@@ -4,7 +4,9 @@ To run the matrix multiplcation
 
 1) Comiple command :
 gcc -c main.c
+
 gcc -c matmult.c
+
 gcc -o matmultc main.o matmult.o
 
 To run matmultc : 
