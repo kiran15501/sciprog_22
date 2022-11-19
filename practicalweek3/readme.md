@@ -1,5 +1,10 @@
 Week 3
 
+Programme can be using this command
+compile: gcc -o tripzoid Area_Calculating_tripzoid_method.c -lm
+
+run:./tripzoid
+
 1)Computing the area under the curve of f (x) where x ∈ [a, b] can be done using the Trapezodial
 
 2)output : Approximted_area = 0.695045
