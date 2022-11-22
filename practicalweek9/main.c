@@ -8,7 +8,7 @@ int get_num_lines(char filename[MAX_FILE_NAME]){
     fp=fopen(filename,"r"); //Open the file
 
     int ch_read;
-    int count=0;
+    int count=1;
 
     while((ch_read = fgetc(fp)) !=EOF){ //EOF when we are done reading the file
         if(ch_read == '\n'){ //when we hit a new line character, add to the number
